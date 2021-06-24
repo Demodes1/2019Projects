@@ -1,7 +1,6 @@
 import pygame
 import numpy as np
 import time
-#import board
 
 pygame.init()
 
@@ -42,10 +41,6 @@ allowed_events = (pygame.MOUSEMOTION, pygame.MOUSEBUTTONDOWN, pygame.KEYDOWN, py
 for event in allowed_events:
     pygame.event.set_allowed(event)
 
-#Sim = set_up.Sim()
-#SimBoard = board.SimBoard(Sim)
-#SimBoard.set_up(Sim.SetUpChances)
-#Game = set_up
 # Calculos
 while 1:
     # Se hace una copia del juego para progresar con los resultados de las proximas generaciones
